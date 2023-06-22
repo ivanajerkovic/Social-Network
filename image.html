@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <a class="link-home-page" href="index.html">Home page</a>
+        <h1>Image</h1>
+        <h2>by <a id="user"></a></h2>
+        <div id="description"></div>
+        <div id="single-image-wrapper">
+            <img src="" alt="" id="single-image">
+        </div> 
+        <div id="div-likes">
+            <button id="btn-like"><i class="fa-solid fa-thumbs-up"></i></button>
+            <span id="likes"></span>
+        </div>
+        <div id="div-comments">
+            Comments:
+            <div id="comments">
+            </div>
+            <div>New comment:
+                <input id="new-comment" type="text">
+                <button id="btn-publish">Publish</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3ef4d2adf4.js" crossorigin="anonymous"></script>
+    <script src="image.js" type="module"></script>
+</body>
+</html>

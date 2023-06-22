@@ -1,0 +1,133 @@
+.page-container {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+    width: fit-content;
+}
+#menu ul li a, .link-home-page {
+    background-color: aqua;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all ease-in-out 0.1s;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+#menu ul li a:hover {
+    background-color: rgba(0, 255, 255, 0.5);
+}
+#table-users {
+    width: fit-content;
+}
+#table-users th {
+    background-color: lightcoral;
+    padding: 7px;
+}
+#table-users tr:nth-child(2n+1) {
+    background-color: rgba(240, 128, 128, 0.2);
+}
+#table-users td {
+    padding: 5px;
+}
+#user-profile, #registration, #login, #add-image {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: fit-content;
+}
+#user-data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+#name, #surname {
+    font: 40px bold;
+}
+.div-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.images {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#registration div {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.div-image {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(192, 192, 192);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: all ease-in-out 0.2s;
+}
+.div-image:hover {
+    scale: 1.1;
+}
+.img-wrapper {
+    position: relative;
+}
+.btn-delete, .btn-update {
+    position: absolute;
+    right: 0;
+}
+.btn-delete {
+    top: 0;
+}
+.btn-update {
+    bottom: 4px;
+}
+button {
+    width: fit-content;
+}
+.comment-wrapper {
+    display: flex;
+    gap: 2px;
+}
+#single-image-wrapper {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(192, 192, 192);
+}
+#single-image {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+#user {
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out 0.2s;
+}
+#user:hover {
+    color: rgb(0, 0, 0, 0.7);
+}

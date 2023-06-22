@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <h1>Users</h1>
+        <button id="add-user">Add user</button>
+        <div>
+            <label for="select-users">Filter users by city:</label>
+            <select name="" id="select-users"></select> <button id="btn-filter-city">filter</button>
+        </div>
+        <div>
+            <label for="">Filter users by year of birth </label>
+            <label for="input-min">from</label> <input type="number" id="input-min">
+            <label for="input-max">to</label> <input type="number" id="input-max">
+            <button id="btn-filter-year">filter</button>
+        </div>
+        <table id="table-users">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Year of birth</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="users.js" type="module"></script>
+</body>
+</html>

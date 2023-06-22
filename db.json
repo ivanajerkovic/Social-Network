@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Pera",
+      "surname": "Peric",
+      "username": "PeraPeric1",
+      "password": "123",
+      "yearOfBirth": "1980",
+      "city": "Nis"
+    },
+    {
+      "id": 2,
+      "name": "Mika",
+      "surname": "Mikic",
+      "username": "MikaMikic2",
+      "password": "234",
+      "yearOfBirth": "1991",
+      "city": "Novi Sad"
+    },
+    {
+      "id": 3,
+      "name": "Laza",
+      "surname": "Lazic",
+      "username": "LazaLazic3",
+      "password": "345",
+      "yearOfBirth": "1980",
+      "city": "Beograd"
+    },
+    {
+      "id": 4,
+      "name": "Zika",
+      "surname": "Zikic",
+      "username": "ZikaZikic4",
+      "password": "456",
+      "yearOfBirth": "1984",
+      "city": "Leskovac"
+    },
+    {
+      "id": 5,
+      "name": "Nikola",
+      "surname": "Nikolic",
+      "username": "NikolaNikolic5",
+      "password": "567",
+      "yearOfBirth": "1998",
+      "city": "Kragujevac"
+    },
+    {
+      "name": "Ivana",
+      "surname": "Jerković",
+      "username": "zfnxfgxg",
+      "password": "zthxfgxgj",
+      "yearOfBirth": 2353546,
+      "city": "Nis",
+      "id": 6
+    }
+  ],
+  "images": [
+    {
+      "imagePath": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=man-person-model-614810.jpg&fm=jpg",
+      "description": "descriptionImage1",
+      "userId": 1,
+      "likes": 24,
+      "id": 1
+    },
+    {
+      "imagePath": "http://clipart-library.com/images/6Tp5enjac.jpg",
+      "description": "descriptionImage2",
+      "userId": 2,
+      "likes": 58,
+      "id": 2
+    },
+    {
+      "imagePath": "https://yt3.ggpht.com/a/AATXAJyAEuD-HGcrBDFwLUMRqrFC1F7oaw4-7ccsbA=s900-c-k-c0xffffffff-no-rj-mo",
+      "description": "descriptionImage3",
+      "userId": 1,
+      "likes": 93,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "imagePath": "https://tse2.mm.bing.net/th?id=OIP.j-GKbiGbhLq-x7aqHKfUYQHaKg&pid=Api&P=0&h=180",
+      "description": "descriptionImage4",
+      "userId": 3,
+      "likes": 28
+    },
+    {
+      "imagePath": "https://tse3.mm.bing.net/th?id=OIP.4CTf7vDDx5FCv-aefSsPnAHaE8&pid=Api&P=0&h=180",
+      "description": "descriptionImage5",
+      "userId": 4,
+      "likes": 23,
+      "id": 5
+    },
+    {
+      "imagePath": "https://tse2.mm.bing.net/th?id=OIP.PZsMLTIgXaEsdCA0VjTo7gHaLH&pid=Api&P=0&h=180",
+      "description": "descriptionImage6",
+      "userId": 5,
+      "likes": 102,
+      "id": 6
+    },
+    {
+      "imagePath": "https://tse1.mm.bing.net/th?id=OIP.1YM53mG10H_U25iPjop83QHaEo&pid=Api&P=0&h=180",
+      "description": "nature 1",
+      "userId": "1",
+      "likes": 0,
+      "id": 7
+    },
+    {
+      "imagePath": "https://tse3.mm.bing.net/th?id=OIP.Sc-ZDMjpcqOyquqBwC9K7wHaEK&pid=Api&P=0&h=180",
+      "description": "bear",
+      "userId": "2",
+      "likes": 1,
+      "id": 8
+    },
+    {
+      "imagePath": "https://tse4.mm.bing.net/th?id=OIP.wi48wAG14-11oOOwM5kavQHaFj&pid=Api&P=0&h=180",
+      "description": "zebra",
+      "userId": "2",
+      "likes": 2,
+      "id": 9
+    },
+    {
+      "imagePath": "https://i.postimg.cc/nLTM9wTW/removal-ai-tmp-6490800e19b4e.png",
+      "description": "profilna",
+      "userId": "6",
+      "likes": 0,
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "imageId": 2,
+      "userId": 4,
+      "commentText": "comment1"
+    },
+    {
+      "id": 2,
+      "imageId": 4,
+      "userId": 1,
+      "commentText": "comment2"
+    },
+    {
+      "id": 3,
+      "imageId": 2,
+      "userId": 3,
+      "commentText": "comment3"
+    },
+    {
+      "id": 4,
+      "imageId": 3,
+      "userId": 3,
+      "commentText": "comment4"
+    },
+    {
+      "imageId": "1",
+      "userId": "6",
+      "commentText": "super",
+      "id": 5
+    },
+    {
+      "imageId": "6",
+      "userId": "6",
+      "commentText": "nice",
+      "id": 6
+    }
+  ]
+}
